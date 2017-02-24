@@ -35,7 +35,7 @@ public class Login extends commonFunctions {
 	    Filelocation=new Read_XLS_utility( properties_Utility.properties("./resources/TestBed.properties"),sheetname);
 	
 	    initBrowser();
-	    driver.get("http://10.207.182.108:81/opencart/index.php?route=account/login");
+	    driver.get("www.google.com");
 	
 	}
 	
