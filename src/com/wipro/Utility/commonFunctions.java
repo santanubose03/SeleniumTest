@@ -48,7 +48,7 @@ public class commonFunctions extends properties_Utility{
 				driver=new FirefoxDriver(webdriverprofile);
 				Addlog.info("FirefoxDriver instance has been created");
 			}else if(SysParam.getProperty("Browser").equals("CHRM")){
-				System.getProperty("webdriver.chrome.driver","C:\\Users\\sa306148\\workspace\\ReadDataFromExcel\\BrowserDrivers\\chromedriver.exe");
+				System.getProperty("webdriver.chrome.driver","./BrowserDrivers/chromedriver.exe");
 				driver=new ChromeDriver(); 
 				Addlog.info("ChromeDriver instance has been created");
 			}
